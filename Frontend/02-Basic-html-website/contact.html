@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <header>
+            <h3><strong>Nancy Ramirez</strong></h3>
+
+          <table>
+          <tr>
+            <td>
+                <a href="home.html">Home</a>
+            </td>
+            <td></td>
+            <td>
+                <a href="projects.html">Projects</a>
+            </td>
+            <td></td>
+            <td>
+                <a href="articles.html">Articles</a>
+            </td>
+            <td></td>
+            <td>
+                <a href="contact.html">Contact</a>
+            </td>
+          </tr>
+        </table>
+      </header>
+    <main>
+      <hr />
+      <section id="contact">
+        <h2>Contact</h2>
+        <form action="/contact-page" method="post">
+          <table>
+            <tr>
+              <td><label for="name">Name: </label></td>
+              <td><input type="text" id="name" name="contact_name" required /></td>
+            </tr>
+            <tr>
+              <td><label for="email">E-mail:</label></td>
+              <td><input type="email" id="email" name="contact_mail" required/></td>
+            </tr>
+            <tr>
+              <td>
+                <label for="msg">Message:</label>
+              </td>
+              <td>
+                <textarea name="contact_message" id="msg" required></textarea>
+              </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button type="submit">Send</button></td>
+            </tr>
+          </table>
+        </form>
+      </section>
+    </main>
+    <footer>
+        <p> <center>© All Rights Reserved 2025</center></p>
+    </footer>
+  </body>
+</html>
